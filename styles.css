@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    height: 30vh;
+    padding: 2em;
+}
+
+.busqueda-usuario-cart {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 1em;
+    padding: 1em;
+    
+}
+
+.item {
+    padding: 0.5em;
+}
+
+
+h1{
+    font-family: "Klee One", cursive;
+    font-weight: 700;
+    font-style: normal;
+    color: rgb(90, 76, 54);
+    padding: 1em;
+}
+
+h2{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+section{
+    margin-top: 3em;
+}
+
+
+.fondo-verde{
+    background-color:rgba(114, 129, 114,0.41);
+    border-radius: 20px;
+}
+
+
+ul{
+    list-style: none; 
+}
+
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 1.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+
+
+#ico-whatsapp{
+    color: #20b123;
+    font-size: 3em;
+}
+
+.productos {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-evenly; 
+    gap: 1em;
+    margin-bottom: 1em;
+}
+
+article h2 {
+    align-items: stretch;
+    font-size: 1em;
+}
+
+
+
+.menu{
+    display: flex;
+    justify-content:space-around;
+    background-image: url(img/tabla1.jpg);
+    background-size: cover;
+    width:auto;
+    padding: 0.5em;
+
+}
+
+.texto{
+    text-align: center;
+}
+
+.ico-aline{
+    display: flex;
+    justify-content: end;
+    margin-right: 10%;
+}
+
+.video-aline{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.resenias{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 3.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.campos {
+    padding: 0.75em;
+    font-size: 1.5em;
+}
+
+
+footer {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+.resenias{
+    grid-template-columns: repeat (auto-fit, minmax(250px,1fr));  
+}
+.campos{
+    padding: 0.50em;
+    font-size: 1em;
+}}
