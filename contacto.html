@@ -49,14 +49,17 @@
                 <h2>Envianos tus consultas</h2>
             </div>
 
-            <form action="https://formsubmit.co/jimenasoledadruiz@gmail.com" method="post">
+            <!-- <form action="https://formsubmit.co/jimenasoledadruiz@gmail.com" method="post"> -->
+            <form action="" method="post">
                 <div class="campos">
                     <label for="nombre">Nombre: </label>
                     <input type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre"/>
+                    <span id="error-nombre"></span>
                 </div>
                 <div class="campos">
                     <label for="email">Correo: </label>
                     <input type="email" name="correo" id="email" placeholder="Ingrese su correo electrónico"/>
+                    <span id="error-email"></span>
                 </div>
                 <div class="campos">
                     <label for="mensaje">Consulta: </label>
@@ -82,5 +85,6 @@
         <footer class="poppins-regular-italic">
             <small>Copyright 2024</small>
         </footer>
+        <script src="./script.js"></script>
     </body>
 </html>
