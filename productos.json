@@ -1,0 +1,103 @@
+[
+    {
+        "id": 1,
+        "rubro": "frutas y verduras congeladas",
+        "imagen":"img/congelados-arandanos.jpg",
+        "titulo":"Arándanos congelados",
+        "precio":5000
+    },
+    {
+        "id": 2,
+        "rubro": "frutas y verduras congeladas",
+        "imagen":"img/congelados-kiwi.jpg",
+        "titulo":"Kiwi congelado",
+        "precio":6000
+    },
+    {
+        "id": 3,
+        "rubro": "frutas y verduras congeladas",
+        "imagen":"img/congelados-frambuesas.jpg",
+        "titulo":"Frambuesas congeladas",
+        "precio":5500
+    },
+    {
+        "id": 4,
+        "rubro": "frutas y verduras congeladas",
+        "imagen":"img/congelados-frutos-rojos.jpg",
+        "titulo":"Mix de frutos rojos congelados",
+        "precio":6000
+    },
+    {
+        "id": 5,
+        "rubro": "frutas y verduras congeladas",
+        "imagen":"img/verdu-cong1.jpg",
+        "titulo":"Mix de verduras congeladas",
+        "precio":5000
+    },
+    {
+        "id": 6,
+        "rubro": "Platos listos",
+        "imagen":"img/osobuco-al-malbec.jpg",
+        "titulo":"Osobuco al malbec",
+        "precio":8000
+    },
+    {
+        "id": 7,
+        "rubro": "Platos listos",
+        "imagen":"img/pollo1.jpg",
+        "titulo":"Pollo grillé",
+        "precio":8500
+    },
+    {
+        "id": 8,
+        "rubro": "Platos listos",
+        "imagen":"img/salmon-grille.jpg",
+        "titulo":"Salmón grillé con vegetales",
+        "precio":15000
+    },
+    {
+        "id": 9,
+        "rubro": "Platos listos",
+        "imagen":"img/pasta.jpg",
+        "titulo":"Pastas caseras",
+        "precio":7000
+    },
+    {
+        "id": 10,
+        "rubro": "Al vacío",
+        "imagen":"img/vacio-champ.jpg",
+        "titulo":"Champignones al vacío",
+        "precio":6000
+    },
+    {
+        "id": 11,
+        "rubro": "Al vacío",
+        "imagen":"img/vacioPollo.jpg",
+        "titulo":"Pollo al vacío",
+        "precio":15000
+    },
+    {
+        "id": 12,
+        "rubro": "Al vacío",
+        "imagen":"img/vacio-salmon.jpg",
+        "titulo":"Salmón al vacío",
+        "precio":17000
+    },
+    {
+        "id": 13,
+        "rubro": "Al vacío",
+        "imagen":"img/vacio-duraznos.jpg",
+        "titulo":"Duraznos al vacío",
+        "precio":4000
+    },
+    {
+        "id": 14,
+        "rubro": "Al vacío",
+        "imagen":"img/vacio-pulpas-fruta.jpg",
+        "titulo":"Pulpa de frutas al vacío",
+        "precio":3000
+    }
+]
+
+
+
