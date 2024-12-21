@@ -27,3 +27,5 @@ form.addEventListener('submit', (event) => {
 }) 
 
 
+/*lista de productos*/
+
