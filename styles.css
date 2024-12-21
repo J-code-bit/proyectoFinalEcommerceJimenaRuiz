@@ -94,6 +94,10 @@ article h2 {
     font-size: 1em;
 }
 
+article img {
+    width: 200;
+}
+
 
 
 .menu{
