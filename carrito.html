@@ -45,30 +45,17 @@
         </nav>
 
         <main>
-            <h1>Tienda Delicia </h1>
+            <h2>Productos Disponibles</h2>
 
-            <section class="carrito">
-                <h2>Carrito</h2>
+            <div id="productos-lista"></div>
 
-                <table>
-                    <thead>
-                        <tr>
-                            <th>Nombre</th>
-                            <th>Cantidad</th>
-                            <th>Precio</th>
-                        </tr>
-                    </thead>
-                    <tbody class="items">
-                        <tr data-id="">
-                            <td>Nombre</td>
-                            <td>Cantidad</td>
-                            <td>Precio</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
+            <h3>Carrito de Compras</h3>
+            <div id="carrito">
+                <ul id="carrito-items"></ul>
+                <p>Total: $<span id="total">0</span></p>
+                <button id="vaciar-carrito">Vaciar Carrito</button>
+            </div>
         </main>
-        
         <footer class="poppins-regular-italic">
             <small>Copyright&#169  2024</small>
         </footer>
