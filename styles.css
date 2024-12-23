@@ -81,7 +81,7 @@ a{
     font-size: 3em;
 }
 
-.productos {
+.card-productos {
     display: flex; 
     flex-wrap: wrap; 
     justify-content: space-evenly; 

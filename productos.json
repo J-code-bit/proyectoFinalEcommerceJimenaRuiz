@@ -1,4 +1,4 @@
-{   "Frutas y verduras congeladas":[
+[
         {
             "id": 1,
             "rubro": "frutas y verduras congeladas",
@@ -33,9 +33,9 @@
             "imagen":"img/verdu-cong1.jpg",
             "titulo":"Mix de verduras congeladas",
             "precio":5000
-        }
-    ],
-    "Platos listos":[
+        },
+    
+
         {
             "id": 6,
             "rubro": "Platos listos",
@@ -63,9 +63,8 @@
             "imagen":"img/pasta.jpg",
             "titulo":"Pastas caseras",
             "precio":7000
-        }
-    ],
-    "Al vacío":[
+        },
+    
         {
             "id": 10,
             "rubro": "Al vacío",
@@ -101,8 +100,8 @@
             "titulo":"Pulpa de frutas al vacío",
             "precio":3000
         }
-    ]
-}
+]
+
 
 
 
