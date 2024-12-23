@@ -136,12 +136,6 @@ article img {
     margin-right: 1em;
 }
 
-.campos {
-    padding: 0.75em;
-    font-size: 1.5em;
-    justify-content: center;
-}
-
 
 footer {
     margin-top: 2em;
@@ -158,3 +152,75 @@ footer {
     padding: 0.50em;
     font-size: 1em;
 }}
+
+
+
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+}
+
+.campos label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.campos input, .campos textarea {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.campos input:focus, .campos textarea:focus {
+    border-color: #28a745;
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #218838; 
+}
+
+button[type="submit"]:active {
+    background-color: #1e7e34; 
+}
+
+span {
+    color: red;
+    font-size: 0.9em;
+    font-weight: bold;
+    display: block;
+    margin-top: 5px;
+}
+
+input:invalid, textarea:invalid {
+    border: 2px solid red; 
+    background-color: #f8d7da;
+}
+
+input:focus:invalid, textarea:focus:invalid {
+    border: 2px solid red;
+    background-color: #f8d7da;
+}

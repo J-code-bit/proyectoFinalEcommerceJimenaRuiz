@@ -1,10 +1,9 @@
 
-let carrito = JSON.parse(localStorage.getItem('carrito')) || []; // Leer carrito desde localStorage
+let carrito = JSON.parse(localStorage.getItem('carrito')) || []; 
 
-// Función para actualizar el carrito
 const actualizarCarrito = () => {
     const carritoItems = document.getElementById('carrito-items');
-    carritoItems.innerHTML = ''; // Limpiar lista
+    carritoItems.innerHTML = ''; 
 
     let total = 0;
     carrito.forEach(producto => {
@@ -14,18 +13,15 @@ const actualizarCarrito = () => {
         total += producto.precio;
     });
 
-    // Mostrar el total en la página
     document.getElementById('total').textContent = total;
 };
 
-// Función para vaciar el carrito
 const vaciarCarrito = () => {
     carrito = [];
-    localStorage.setItem('carrito', JSON.stringify(carrito)); // Vaciamos el carrito en localStorage
+    localStorage.setItem('carrito', JSON.stringify(carrito)); 
     actualizarCarrito();
 };
 
-// Función para cargar los productos en el carrito
 const cargarCarrito = () => {
     if (carrito.length > 0) {
         actualizarCarrito();
@@ -34,9 +30,7 @@ const cargarCarrito = () => {
     }
 };
 
-// Evento de vaciar el carrito
 document.getElementById('vaciar-carrito').addEventListener('click', vaciarCarrito);
 
-// Cargar el carrito al cargar la página
 cargarCarrito();
 
