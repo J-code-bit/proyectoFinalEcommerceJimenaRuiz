@@ -8,9 +8,9 @@ const actualizarCarrito = () => {
     let total = 0;
     carrito.forEach(producto => {
         const itemCarrito = document.createElement('li');
-        itemCarrito.textContent = `${producto.titulo} - $${producto.precio}`;
+        itemCarrito.textContent = `${producto.titulo} - $${producto.precio} x ${producto.cantidad} = $${producto.precio * producto.cantidad}`;
         carritoItems.appendChild(itemCarrito);
-        total += producto.precio;
+        total += producto.precio * producto.cantidad;
     });
 
     document.getElementById('total').textContent = total;
@@ -32,5 +32,4 @@ const cargarCarrito = () => {
 
 document.getElementById('vaciar-carrito').addEventListener('click', vaciarCarrito);
 
-cargarCarrito();
-
+cargarCarrito()
